@@ -6,15 +6,16 @@ Aufgrund der steigenden Beliebtheit von Python im naturwissenschaftlichen Bereic
 
 Über das application programming interface (API) können Metadaten im Datenportal automatisiert erstellt, aktualisiert und gefiltert abgefragt werden. Die Datensätze der zuvor bearbeiteten Metadaten werden beispielhaft kurz analysiert und visualisiert. Am Ende sollen mehrdimensionale Datensätze im NetCDF Format visualisiert, zeitlich sowie räumlich gemittelt und Ergebnisse in CSV und NetCDF exportiert werden.
 
-1. Python Grundlagen
-- [Notebook](https://nbviewer.jupyter.org/github/ccca-dc/2018-04_klimatag_workshop/blob/master/01_python-basics.ipynb)
+## Workshop
+**1. Python Grundlagen**
+- [Python Notebook](https://nbviewer.jupyter.org/github/ccca-dc/2018-04_klimatag_workshop/blob/master/01_python-basics.ipynb)
 - Inhalt: Dictionaries, Lists, String operations
 
-2. Datenzentrums API (Application programming interface):
-- [Notebook](https://nbviewer.jupyter.org/github/ccca-dc/2018-04_klimatag_workshop/blob/master/02_ckan-api.ipynb)
-- Inhalt: Automatisiertes erstellen, verwalten und anzeigen von Datensätzen inklusive Ressourcen
+**2. Datenzentrums API (Application programming interface)**
+- [Python Notebook](https://nbviewer.jupyter.org/github/ccca-dc/2018-04_klimatag_workshop/blob/master/02_ckan-api.ipynb)
+- Inhalt: Automatisiertes anzeigen und suchen von Datensätzen inklusive Ressourcen
 
-3. Python Module iris/pandas
-- [Notebook](https://nbviewer.jupyter.org/github/ccca-dc/2018-04_klimatag_workshop/blob/master/03_iris_pandas.ipynb)
+**3. Python Module iris/pandas**
+- [Python Notebook](https://nbviewer.jupyter.org/github/ccca-dc/2018-04_klimatag_workshop/blob/master/03_iris_pandas.ipynb)
 - Inhalt: Zweidimensionale Datensätze, Zeitserienanalyse (Mittelwert, Standardabweichung, Median, ...), DataFrame, DataSeries, Plot, Export in CSV Datei
 Mehrdimensionale Datensätze, Plot, Flächenmittel, saisonal Mittel, schreiben in CF konforme NetCDF Datei, Konvertieren von Zeitserien zu pandas DataFrame
