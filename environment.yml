@@ -4,10 +4,13 @@ channels:
   - defaults
 dependencies:
   - asn1crypto=0.24.0=py36_0
+  - babel=2.5.3=py36_0
   - bokeh=0.12.15=py36_0
   - cartopy=0.16.0=py36_0
+  - certifi=2018.4.16=py36_0
   - cf_units=1.2.0=py36_0
   - cffi=1.11.5=py36_0
+  - cftime=1.0.0=py36_0
   - chardet=3.0.4=py36_0
   - click=6.7=py_1
   - cloudpickle=0.5.2=py_0
@@ -27,16 +30,23 @@ dependencies:
   - gst-plugins-base=1.8.0=0
   - gstreamer=1.8.0=1
   - hdf4=4.2.13=0
+  - hdf5=1.8.17=2
   - heapdict=1.0.0=py36_0
   - icu=58.2=0
   - idna=2.6=py36_1
+  - imagesize=1.0.0=py36_0
+  - ipykernel=4.8.2=py36_0
+  - ipython=6.3.1=py36_0
+  - ipywidgets=7.2.1=py36_0
   - iris=2.0.0=py36_1
+  - jedi=0.12.0=py36_0
   - jinja2=2.10=py36_0
   - jpeg=9b=2
+  - jupyter_client=5.2.3=py36_0
   - kiwisolver=1.0.1=py36_1
   - krb5=1.14.6=0
   - libffi=3.2.1=3
-  - libiconv=1.15=0
+  - libiconv=1.15=h470a237_1
   - libpng=1.6.34=0
   - libssh2=1.8.0=2
   - libtiff=4.0.9=0
@@ -50,13 +60,17 @@ dependencies:
   - mkl_fft=1.0.1=py36_1
   - mkl_random=1.0.1=py36_0
   - msgpack-python=0.5.6=py36_0
+  - nc-time-axis=1.1.0=py_0
   - ncurses=5.9=10
+  - notebook=5.4.1=py36_0
+  - numpydoc=0.8.0=py36_0
   - olefile=0.45.1=py36_0
   - owslib=0.16.0=py_0
   - packaging=17.1=py_0
   - pandas=0.22.0=py36_0
   - partd=0.3.8=py36_0
   - pcre=8.41=1
+  - pexpect=4.5.0=py36_0
   - pillow=5.1.0=py36_0
   - pip=9.0.3=py36_0
   - proj4=4.9.3=5
@@ -82,14 +96,17 @@ dependencies:
   - sip=4.18=py36_1
   - six=1.11.0=py36_1
   - sortedcontainers=1.5.9=py36_0
+  - sphinx=1.7.2=py36_0
   - sqlite=3.20.1=2
   - tblib=1.3.2=py36_0
   - tk=8.6.7=0
   - toolz=0.9.0=py_0
   - tornado=5.0.2=py36_0
+  - typing=3.6.4=py36_0
   - udunits2=2.2.26=0
   - urllib3=1.22=py36_0
   - wheel=0.31.0=py36_0
+  - widgetsnbextension=3.2.1=py36_0
   - xorg-libxau=1.0.8=3
   - xorg-libxdmcp=1.1.2=3
   - xz=5.2.3=0
@@ -97,28 +114,19 @@ dependencies:
   - zict=0.1.3=py_0
   - zlib=1.2.11=0
   - alabaster=0.7.10=py36h306e16b_0
-  - babel=2.5.3=py36_0
   - backcall=0.1.0=py36_0
   - bleach=2.1.3=py36_0
   - ca-certificates=2018.03.07=0
-  - certifi=2018.4.16=py36_0
   - curl=7.49.0=1
   - decorator=4.3.0=py36_0
   - docutils=0.14=py36hb0f60f5_0
   - entrypoints=0.2.3=py36h1aec115_2
   - gmp=6.1.2=h6c8ec71_1
-  - hdf5=1.8.17=2
   - html5lib=1.0.1=py36h2f9c1c0_0
-  - imagesize=1.0.0=py36_0
   - intel-openmp=2018.0.0=8
-  - ipykernel=4.8.2=py36_0
-  - ipython=6.3.1=py36_0
   - ipython_genutils=0.2.0=py36hb52b0d5_0
-  - ipywidgets=7.2.1=py36_0
-  - jedi=0.12.0=py36_0
   - jsonschema=2.6.0=py36h006f8b5_0
   - jupyter=1.0.0=py36_4
-  - jupyter_client=5.2.3=py36_0
   - jupyter_console=5.2.0=py36he59e554_1
   - jupyter_core=4.4.0=py36h7c827e3_0
   - libgcc=7.2.0=h69d50b8_2
@@ -133,14 +141,11 @@ dependencies:
   - nbconvert=5.3.1=py36hb41ffb7_0
   - nbformat=4.4.0=py36h31c9010_0
   - netcdf4=1.2.4=np113py36_0
-  - notebook=5.4.1=py36_0
   - numpy=1.13.3=py36hdbf6ddf_4
-  - numpydoc=0.8.0=py36_0
   - openssl=1.0.2o=h20670df_0
   - pandoc=1.19.2.1=hea2e7c5_1
   - pandocfilters=1.4.2=py36ha6701b7_1
   - parso=0.2.0=py36_0
-  - pexpect=4.5.0=py36_0
   - pickleshare=0.7.4=py36h63277f8_0
   - prompt_toolkit=1.0.15=py36h17d85b1_0
   - ptyprocess=0.5.2=py36h69acd42_0
@@ -151,20 +156,17 @@ dependencies:
   - send2trash=1.5.0=py36_0
   - simplegeneric=0.8.1=py36_2
   - snowballstemmer=1.2.1=py36h6febd40_0
-  - sphinx=1.7.2=py36_0
   - sphinxcontrib=1.0=py36h6d0f590_1
   - sphinxcontrib-websupport=1.0.1=py36hb5cb234_1
   - terminado=0.8.1=py36_1
   - testpath=0.3.1=py36h8cadb63_0
   - traitlets=4.3.2=py36h674d592_0
-  - typing=3.6.4=py36_0
   - wcwidth=0.1.7=py36hdf4376a_0
   - webencodings=0.5.1=py36h800622e_1
-  - widgetsnbextension=3.2.1=py36_0
   - zeromq=4.2.5=h439df22_0
   - pip:
     - ckanapi==4.1
     - docopt==0.6.2
     - scitools-iris==2.0.0
-prefix: /home/ccca5/miniconda3/envs/p3
+prefix: /home/ccca6/miniconda3/envs/p3
 
