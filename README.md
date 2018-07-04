@@ -20,11 +20,15 @@ results exported to other formats like CSV.
 - [Python Notebook](https://nbviewer.jupyter.org/github/ccca-dc/CCCA_Python_workshop/blob/master/02_ckan-api.ipynb)
 - Topics: Automated listing and searching of datasets including resources
 
-**3. Python Module iris/pandas**
+**3. Python Module iris/pandas 1**
 - [Python Notebook](https://nbviewer.jupyter.org/github/ccca-dc/CCCA_Python_workshop/blob/master/03_iris_pandas.ipynb)
 - Topics: Two-dimensional datasets, Time Series Analysis (mean, std, median, ...), DataFrame, DataSeries, Plot, Export in CSV file
 Multidimensional datasets, Plot, Area Average, seasonal mean, write into CF conformal NetCDF file, convert iris cube to pandas DataFrame
 
+**4. Python Module iris/pandas 2**
+- [Python Notebook](https://nbviewer.jupyter.org/github/ccca-dc/CCCA_Python_workshop/blob/master/04_climate_change_signal.ipynb)
+- Topics: Work with climate change signals
+Multidimensional datasets, Plot, Area Average, convert iris cube to pandas DataFrame
 
 
 ## Das Datenzentrum in Python – Von Metadaten bis NetCDF
@@ -43,14 +47,19 @@ exportiert werden.
 
 ## Workshop
 **1. Python Grundlagen**
-- [Python Notebook](https://nbviewer.jupyter.org/github/ccca-dc/2018-04_klimatag_workshop/blob/master/01_python-basics.ipynb)
+- [Python Notebook](https://nbviewer.jupyter.org/github/ccca-dc/CCCA_Python_workshop/blob/master/01_python-basics.ipynb)
 - Inhalt: Dictionaries, Lists, String operations
 
 **2. Datenzentrums API (Application programming interface)**
-- [Python Notebook](https://nbviewer.jupyter.org/github/ccca-dc/2018-04_klimatag_workshop/blob/master/02_ckan-api.ipynb)
+- [Python Notebook](https://nbviewer.jupyter.org/github/ccca-dc/CCCA_Python_workshop/blob/master/02_ckan-api.ipynb)
 - Inhalt: Automatisiertes anzeigen und suchen von Datensätzen inklusive Ressourcen
 
-**3. Python Module iris/pandas**
-- [Python Notebook](https://nbviewer.jupyter.org/github/ccca-dc/2018-04_klimatag_workshop/blob/master/03_iris_pandas.ipynb)
+**3. Python Module iris/pandas 1**
+- [Python Notebook](https://nbviewer.jupyter.org/github/ccca-dc/CCCA_Python_workshop/blob/master/03_iris_pandas.ipynb)
 - Inhalt: Zweidimensionale Datensätze, Zeitserienanalyse (Mittelwert, Standardabweichung, Median, ...), DataFrame, DataSeries, Plot, Export in CSV Datei
 Mehrdimensionale Datensätze, Plot, Flächenmittel, saisonal Mittel, schreiben in CF konforme NetCDF Datei, Konvertieren von Zeitserien zu pandas DataFrame
+
+**4. Python Module iris/pandas 2**
+- [Python Notebook](https://nbviewer.jupyter.org/github/ccca-dc/CCCA_Python_workshop/blob/master/04_climate_change_signal.ipynb)
+- Inhalt: Visualisierung und Flächenmittelung von climate change signal Daten
+Mehrdimensionale Datensätze, Plot, Flächenmittel, Konvertieren von Zeitserien zu pandas DataFrame
