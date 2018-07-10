@@ -7,7 +7,8 @@
 
 **1. Download git Repository**
 - git clone https://github.com/ccca-dc/CCCA_Python_workshop.git
-- Alternatively: [ZIP](https://github.com/ccca-dc/CCCA_Python_workshop/archive/master.zip) and unzip it
+- Alternatively: Download
+  [ZIP](https://github.com/ccca-dc/CCCA_Python_workshop/archive/master.zip) and unzip it
 
 **2. Download and install miniconda**
 - [Download miniconda3 for Linux](https://conda.io/miniconda.html)
@@ -15,13 +16,12 @@
     * bash Miniconda3-latest-Linux-x86_64.sh
       - Accept license
       - Choose path (default is in home directory)
-      - YES to add conda in PATH environment variable (last point installer)
-  * source ~/.bashrc
-  * Change directory to downloaded CCCA\_Python\_workshop
-  * conda env create -f environment.yml
-  * ```console
-    demo@ccca1 ~/CCCA_Python_workshop (git)-[master] % jupyter notebook
-    ```
+      - YES to append conda in PATH environment variable in your .bashrc (last point installer)
+    * source ~/.bashrc
+- Change directory to CCCA\_Python\_workshop
+- conda env create -f environment.yml
+- conda activate p3
+- jupyter notebook
 
 ## Description
 Due to the increasing popularity of Python in natural sciences, this workshop
