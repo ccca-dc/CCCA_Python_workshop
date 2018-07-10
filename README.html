@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>README.html</title>
+
+</head>
+
+<body>
+
+<h1>Python Workshop</h1>
+
+<h2>CCCA Data Center - From Metadata to NetCDF</h2>
+
+<h2>Installation</h2>
+
+<h3>Linux</h3>
+
+<p><strong>1. Download git Repository</strong>
+- git clone https://github.com/ccca-dc/CCCA<em>Python</em>workshop.git
+- Alternatively: <a href="https://github.com/ccca-dc/CCCA_Python_workshop/archive/master.zip">ZIP</a> and unzip it</p>
+
+<p><strong>2. Download and install miniconda</strong>
+- <a href="https://conda.io/miniconda.html">Download miniconda3 for Linux</a>
+- Install minconda with:
+    * bash Miniconda3-latest-Linux-x86_64.sh
+      - Accept license
+      - Choose path (default is in home directory)
+      - YES to add conda in PATH environment variable (last point installer)
+  * source ~/.bashrc
+  * Change directory to downloaded CCCA_Python_workshop
+  * conda env create -f environment.yml
+  * <code>console
+    demo@ccca1 ~/CCCA_Python_workshop (git)-[master] % jupyter notebook
+</code></p>
+
+<h2>Description</h2>
+
+<p>Due to the increasing popularity of Python in natural sciences, this workshop
+will provide an overview of useful modules to deal with data sets and metadata
+within the the CCCA Data Centre environment.</p>
+
+<p>How to use the API (application programming interface) at the CCCA Data Centre,
+short introduction how to analyze and visualize data. How to deal with
+multidimensional data sets in NetCDF format, averaged in time and space, and
+results exported to other formats like CSV.</p>
+
+<h2>Workshop</h2>
+
+<p><strong>1. Python Basics</strong>
+- <a href="https://nbviewer.jupyter.org/github/ccca-dc/CCCA_Python_workshop/blob/master/01_python-basics.ipynb">Python Notebook</a>
+- Topics: Dictionaries, Lists, String operations</p>
+
+<p><strong>2. CCCA Data Center API (Application programming interface)</strong>
+- <a href="https://nbviewer.jupyter.org/github/ccca-dc/CCCA_Python_workshop/blob/master/02_ckan-api.ipynb">Python Notebook</a>
+- Topics: Automated listing and searching of datasets including resources</p>
+
+<p><strong>3. Python Module iris/pandas 1</strong>
+- <a href="https://nbviewer.jupyter.org/github/ccca-dc/CCCA_Python_workshop/blob/master/03_iris_pandas.ipynb">Python Notebook</a>
+- Topics: Two-dimensional datasets, Time Series Analysis (mean, std, median, ...), DataFrame, DataSeries, Plot, Export in CSV file
+Multidimensional datasets, Plot, Area Average, seasonal mean, write into CF conformal NetCDF file, convert iris cube to pandas DataFrame</p>
+
+<p><strong>4. Python Module iris/pandas 2</strong>
+- <a href="https://nbviewer.jupyter.org/github/ccca-dc/CCCA_Python_workshop/blob/master/04_climate_change_signal.ipynb">Python Notebook</a>
+- Topics: Work with climate change signals
+Multidimensional datasets, Plot, Area Average, convert iris cube to pandas DataFrame</p>
+
+<h2>Das Datenzentrum in Python – Von Metadaten bis NetCDF</h2>
+
+<h2>Beschreibung</h2>
+
+<p>Aufgrund der steigenden Beliebtheit von Python im naturwissenschaftlichen
+Bereich soll dieser Workshop einen Überblick über sinnvolle Module im Umgang mit
+Metadaten und Datensätzen des CCCA Data Centres vermitteln.</p>
+
+<p>Über das application programming interface (API) können Metadaten im Datenportal
+automatisiert erstellt, aktualisiert und gefiltert abgefragt werden. Die
+Datensätze der zuvor bearbeiteten Metadaten werden beispielhaft kurz analysiert
+und visualisiert. Am Ende sollen mehrdimensionale Datensätze im NetCDF Format
+visualisiert, zeitlich sowie räumlich gemittelt und Ergebnisse in CSV und NetCDF
+exportiert werden.</p>
+
+<h2>Workshop</h2>
+
+<p><strong>1. Python Grundlagen</strong>
+- <a href="https://nbviewer.jupyter.org/github/ccca-dc/CCCA_Python_workshop/blob/master/01_python-basics.ipynb">Python Notebook</a>
+- Inhalt: Dictionaries, Lists, String operations</p>
+
+<p><strong>2. Datenzentrums API (Application programming interface)</strong>
+- <a href="https://nbviewer.jupyter.org/github/ccca-dc/CCCA_Python_workshop/blob/master/02_ckan-api.ipynb">Python Notebook</a>
+- Inhalt: Automatisiertes anzeigen und suchen von Datensätzen inklusive Ressourcen</p>
+
+<p><strong>3. Python Module iris/pandas 1</strong>
+- <a href="https://nbviewer.jupyter.org/github/ccca-dc/CCCA_Python_workshop/blob/master/03_iris_pandas.ipynb">Python Notebook</a>
+- Inhalt: Zweidimensionale Datensätze, Zeitserienanalyse (Mittelwert, Standardabweichung, Median, ...), DataFrame, DataSeries, Plot, Export in CSV Datei
+Mehrdimensionale Datensätze, Plot, Flächenmittel, saisonal Mittel, schreiben in CF konforme NetCDF Datei, Konvertieren von Zeitserien zu pandas DataFrame</p>
+
+<p><strong>4. Python Module iris/pandas 2</strong>
+- <a href="https://nbviewer.jupyter.org/github/ccca-dc/CCCA_Python_workshop/blob/master/04_climate_change_signal.ipynb">Python Notebook</a>
+- Inhalt: Visualisierung und Flächenmittelung von climate change signal Daten
+Mehrdimensionale Datensätze, Plot, Flächenmittel, Konvertieren von Zeitserien zu pandas DataFrame</p>
+
+</body>
+</html>
